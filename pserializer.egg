@@ -5,6 +5,7 @@
  (license "BSD")
  (author "Shiro Kawai, Ivan Raikov")
  (dependencies srfi-69)
+ (test-dependencies test)
  (components (extension pserializer
                (source-dependencies "pserializer-impl.scm"))
              (extension pserializer-deflate
