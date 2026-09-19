@@ -4,7 +4,7 @@
  (category data)
  (license "BSD")
  (author "Shiro Kawai, Ivan Raikov")
- (dependencies)
+ (dependencies srfi-69)
  (components (extension pserializer
                (source-dependencies "pserializer-impl.scm"))
              (extension pserializer-deflate
