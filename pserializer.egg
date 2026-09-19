@@ -4,7 +4,7 @@
  (category data)
  (license "BSD")
  (author "Shiro Kawai, Ivan Raikov")
- (dependencies srfi-69)
+ (dependencies srfi-69 chicken-blob)
  (test-dependencies test)
  (components (extension pserializer
                (source-dependencies "pserializer-impl.scm"))
