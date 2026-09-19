@@ -1,0 +1,14 @@
+;;;; pserializer.egg
+
+((synopsis "Portable serializer with SRFI-4, hash-table and compression support")
+ (category data)
+ (license "BSD")
+ (author "Shiro Kawai, Ivan Raikov")
+ (dependencies)
+ (components (extension pserializer
+               (source-dependencies "pserializer-impl.scm"))
+             (extension pserializer-deflate
+               (source-dependencies "miniz.c" "miniz.h")
+               (component-dependencies pserializer)))
+ )
+
